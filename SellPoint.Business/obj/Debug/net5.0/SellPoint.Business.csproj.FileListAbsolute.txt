@@ -10,3 +10,6 @@ C:\Users\zaiz\Desktop\SellPoint Project\NewSellPoint\SellPoint\SellPoint.Busines
 C:\Users\zaiz\Desktop\SellPoint Project\NewSellPoint\SellPoint\SellPoint.Business\obj\Debug\net5.0\SellPoint.Business.dll
 C:\Users\zaiz\Desktop\SellPoint Project\NewSellPoint\SellPoint\SellPoint.Business\obj\Debug\net5.0\ref\SellPoint.Business.dll
 C:\Users\zaiz\Desktop\SellPoint Project\NewSellPoint\SellPoint\SellPoint.Business\obj\Debug\net5.0\SellPoint.Business.pdb
+C:\Users\zaiz\Desktop\SellPoint Project\NewSellPoint\SellPoint\SellPoint.Business\bin\Debug\net5.0\SellPoint.Data.dll
+C:\Users\zaiz\Desktop\SellPoint Project\NewSellPoint\SellPoint\SellPoint.Business\bin\Debug\net5.0\SellPoint.Data.pdb
+C:\Users\zaiz\Desktop\SellPoint Project\NewSellPoint\SellPoint\SellPoint.Business\obj\Debug\net5.0\SellPoint.Business.csproj.CopyComplete

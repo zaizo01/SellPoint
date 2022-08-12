@@ -10,3 +10,6 @@ C:\Users\zaiz\Desktop\SellPoint Project\NewSellPoint\SellPoint\SellPoint.Data\ob
 C:\Users\zaiz\Desktop\SellPoint Project\NewSellPoint\SellPoint\SellPoint.Data\obj\Debug\net5.0\SellPoint.Data.dll
 C:\Users\zaiz\Desktop\SellPoint Project\NewSellPoint\SellPoint\SellPoint.Data\obj\Debug\net5.0\ref\SellPoint.Data.dll
 C:\Users\zaiz\Desktop\SellPoint Project\NewSellPoint\SellPoint\SellPoint.Data\obj\Debug\net5.0\SellPoint.Data.pdb
+C:\Users\zaiz\Desktop\SellPoint Project\NewSellPoint\SellPoint\SellPoint.Data\bin\Debug\net5.0\SellPoint.Data.runtimeconfig.json
+C:\Users\zaiz\Desktop\SellPoint Project\NewSellPoint\SellPoint\SellPoint.Data\bin\Debug\net5.0\SellPoint.Data.runtimeconfig.dev.json
+C:\Users\zaiz\Desktop\SellPoint Project\NewSellPoint\SellPoint\SellPoint.Data\obj\Debug\net5.0\SellPoint.Data.genruntimeconfig.cache
