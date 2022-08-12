@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "wwW9TJLX+Hc+f/EfLgfNwPJbXh88kiSGUWIuLffBWMR4JXcnnwIgfZFik5VCaHxAKotl5o8tNaIzbzZveBMyYA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\zaiz\\Desktop\\SellPoint Project\\NewSellPoint\\SellPoint\\SellPoint.Presentation.WebAPI\\SellPoint.Presentation.WebAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\zaiz\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\zaiz\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\zaiz\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\zaiz\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\zaiz\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\zaiz\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}

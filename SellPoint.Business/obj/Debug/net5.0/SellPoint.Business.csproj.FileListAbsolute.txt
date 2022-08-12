@@ -1,0 +1,12 @@
+C:\Users\zaiz\Desktop\SellPoint Project\NewSellPoint\SellPoint\SellPoint.Business\bin\Debug\net5.0\SellPoint.Business.deps.json
+C:\Users\zaiz\Desktop\SellPoint Project\NewSellPoint\SellPoint\SellPoint.Business\bin\Debug\net5.0\SellPoint.Business.dll
+C:\Users\zaiz\Desktop\SellPoint Project\NewSellPoint\SellPoint\SellPoint.Business\bin\Debug\net5.0\ref\SellPoint.Business.dll
+C:\Users\zaiz\Desktop\SellPoint Project\NewSellPoint\SellPoint\SellPoint.Business\bin\Debug\net5.0\SellPoint.Business.pdb
+C:\Users\zaiz\Desktop\SellPoint Project\NewSellPoint\SellPoint\SellPoint.Business\obj\Debug\net5.0\SellPoint.Business.csproj.AssemblyReference.cache
+C:\Users\zaiz\Desktop\SellPoint Project\NewSellPoint\SellPoint\SellPoint.Business\obj\Debug\net5.0\SellPoint.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zaiz\Desktop\SellPoint Project\NewSellPoint\SellPoint\SellPoint.Business\obj\Debug\net5.0\SellPoint.Business.AssemblyInfoInputs.cache
+C:\Users\zaiz\Desktop\SellPoint Project\NewSellPoint\SellPoint\SellPoint.Business\obj\Debug\net5.0\SellPoint.Business.AssemblyInfo.cs
+C:\Users\zaiz\Desktop\SellPoint Project\NewSellPoint\SellPoint\SellPoint.Business\obj\Debug\net5.0\SellPoint.Business.csproj.CoreCompileInputs.cache
+C:\Users\zaiz\Desktop\SellPoint Project\NewSellPoint\SellPoint\SellPoint.Business\obj\Debug\net5.0\SellPoint.Business.dll
+C:\Users\zaiz\Desktop\SellPoint Project\NewSellPoint\SellPoint\SellPoint.Business\obj\Debug\net5.0\ref\SellPoint.Business.dll
+C:\Users\zaiz\Desktop\SellPoint Project\NewSellPoint\SellPoint\SellPoint.Business\obj\Debug\net5.0\SellPoint.Business.pdb
