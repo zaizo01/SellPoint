@@ -1,6 +1,8 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using AutoMapper;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using SellPoint.Business.Interfaces;
+using SellPoint.Data.DTOs.Entidades;
 using SellPoint.Data.Entities;
 using System;
 using System.Collections.Generic;
@@ -14,10 +16,12 @@ namespace SellPoint.Presentation.WebAPI.Controllers
     public class EntidadesController : ControllerBase
     {
         private readonly IGenericRepository<Entidades> repository;
+        private readonly IMapper mapper;
 
-        public EntidadesController(IGenericRepository<Entidades> repository)
+        public EntidadesController(IGenericRepository<Entidades> repository, IMapper mapper)
         {
             this.repository = repository;
+            this.mapper = mapper;
         }
 
         [HttpGet]
@@ -27,7 +31,7 @@ namespace SellPoint.Presentation.WebAPI.Controllers
             {
                 var entity = await repository.GetById(id);
                 if (entity is null) return NotFound("Esta entidad no existe.");
-                return Ok(entity);
+                return Ok(mapper.Map<EntidadesGetDTO>(entity));
             }
             catch (Exception ex)
             {
@@ -41,7 +45,7 @@ namespace SellPoint.Presentation.WebAPI.Controllers
             try
             {
                 var entities = await repository.GetAll();
-                return Ok(entities);
+                return Ok(mapper.Map<List<EntidadesGetDTO>>(entities));
             }
             catch (Exception ex)
             {
@@ -50,11 +54,12 @@ namespace SellPoint.Presentation.WebAPI.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> CreateEntity(Entidades entidades)
+        public async Task<IActionResult> CreateEntity(EntidadesPostDTO entidadesPostDTO)
         {
             try
             {
-                var entity = await repository.Create(entidades);
+                var entity = mapper.Map<Entidades>(entidadesPostDTO);
+                await repository.Create(entity);
                 return Ok(entity);
             }
             catch (Exception ex)
@@ -64,11 +69,12 @@ namespace SellPoint.Presentation.WebAPI.Controllers
         }
 
         [HttpPut]
-        public async Task<IActionResult> UpdateEntity(Entidades entidades)
+        public async Task<IActionResult> UpdateEntity(EntidadesPutDTO entidadesPutDTO)
         {
             try
             {
-                var entity = await repository.Update(entidades);
+                var entity = mapper.Map<Entidades>(entidadesPutDTO);
+                await repository.Update(entity);
                 return Ok(entity);
             }
             catch (Exception ex)
