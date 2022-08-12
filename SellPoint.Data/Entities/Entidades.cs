@@ -51,6 +51,6 @@ namespace SellPoint.Data.Entities
         [StringLength(10)]
         public string Status { get; set; } = "Activa";
         public bool NoEliminable { get; set; } = false;
-        public DateTime FechaRegistro { get; set; } = DateTime.Now;
+        public DateTime FechaRegistro { get; set; } = DateTime.Now.Date;
     }
 }

@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "PVmJPbbU5WrCf5Jccn/I6tlAQ8bi5Wx74w89Ud1qQ7RJzXJbEefFTVw+NPf9p6PDWoOQusICL1iQGOL/4vb30g==",
+  "dgSpecHash": "asgF7DIUgYysB3r1zL6aAvphDlNMAxJbhL/f4gYRqKtTg/byR141m4nOQ4LD1D9thA3Xe3XlQH/2TyHmuYoWpg==",
   "success": true,
   "projectFilePath": "C:\\Users\\czaiz\\Desktop\\Projects\\SellPoint\\SellPoint.Presentation.WebAPI\\SellPoint.Presentation.WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\czaiz\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\czaiz\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+    "C:\\Users\\czaiz\\.nuget\\packages\\fluentvalidation\\11.2.0\\fluentvalidation.11.2.0.nupkg.sha512",
+    "C:\\Users\\czaiz\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.2.1\\fluentvalidation.aspnetcore.11.2.1.nupkg.sha512",
+    "C:\\Users\\czaiz\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.2.0\\fluentvalidation.dependencyinjectionextensions.11.2.0.nupkg.sha512",
     "C:\\Users\\czaiz\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\czaiz\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\czaiz\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",
