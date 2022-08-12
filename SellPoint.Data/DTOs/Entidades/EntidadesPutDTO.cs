@@ -28,6 +28,6 @@ namespace SellPoint.Data.DTOs.Entidades
         public string Comentario { get; set; }
         public string Status { get; set; }
         public bool NoEliminable { get; set; }
-        public DateTime FechaRegistro { get; set; };
+        public DateTime FechaRegistro { get; set; }
     }
 }
