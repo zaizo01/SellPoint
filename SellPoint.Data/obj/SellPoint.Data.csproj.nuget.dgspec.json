@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\zaiz\\Desktop\\SellPoint Project\\NewSellPoint\\SellPoint\\SellPoint.Data\\SellPoint.Data.csproj": {}
+    "C:\\Users\\czaiz\\Desktop\\Projects\\SellPoint\\SellPoint.Data\\SellPoint.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\zaiz\\Desktop\\SellPoint Project\\NewSellPoint\\SellPoint\\SellPoint.Data\\SellPoint.Data.csproj": {
+    "C:\\Users\\czaiz\\Desktop\\Projects\\SellPoint\\SellPoint.Data\\SellPoint.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zaiz\\Desktop\\SellPoint Project\\NewSellPoint\\SellPoint\\SellPoint.Data\\SellPoint.Data.csproj",
+        "projectUniqueName": "C:\\Users\\czaiz\\Desktop\\Projects\\SellPoint\\SellPoint.Data\\SellPoint.Data.csproj",
         "projectName": "SellPoint.Data",
-        "projectPath": "C:\\Users\\zaiz\\Desktop\\SellPoint Project\\NewSellPoint\\SellPoint\\SellPoint.Data\\SellPoint.Data.csproj",
-        "packagesPath": "C:\\Users\\zaiz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zaiz\\Desktop\\SellPoint Project\\NewSellPoint\\SellPoint\\SellPoint.Data\\obj\\",
+        "projectPath": "C:\\Users\\czaiz\\Desktop\\Projects\\SellPoint\\SellPoint.Data\\SellPoint.Data.csproj",
+        "packagesPath": "C:\\Users\\czaiz\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\czaiz\\Desktop\\Projects\\SellPoint\\SellPoint.Data\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\zaiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\czaiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -80,7 +76,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

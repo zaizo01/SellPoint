@@ -24,10 +24,12 @@ namespace SellPoint.Data.DTOs.Entidades
         public string CodPostal { get; set; }
         public string CoordenadasGPS { get; set; }
         public double LimiteCredito { get; set; }
+        public string UserNameEntidad { get; set; }
+        public string PassworEntidad { get; set; }
         public string RolUserEntidad { get; set; }
         public string Comentario { get; set; }
         public string Status { get; set; }
         public bool NoEliminable { get; set; }
-        public DateTime FechaRegistro { get; set; } = DateTime.Now;
+        public DateTime FechaRegistro { get; set; }
     }
 }

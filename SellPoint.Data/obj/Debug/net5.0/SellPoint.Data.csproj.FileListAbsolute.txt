@@ -13,3 +13,18 @@ C:\Users\zaiz\Desktop\SellPoint Project\NewSellPoint\SellPoint\SellPoint.Data\ob
 C:\Users\zaiz\Desktop\SellPoint Project\NewSellPoint\SellPoint\SellPoint.Data\bin\Debug\net5.0\SellPoint.Data.runtimeconfig.json
 C:\Users\zaiz\Desktop\SellPoint Project\NewSellPoint\SellPoint\SellPoint.Data\bin\Debug\net5.0\SellPoint.Data.runtimeconfig.dev.json
 C:\Users\zaiz\Desktop\SellPoint Project\NewSellPoint\SellPoint\SellPoint.Data\obj\Debug\net5.0\SellPoint.Data.genruntimeconfig.cache
+C:\Users\czaiz\Desktop\Projects\SellPoint\SellPoint.Data\bin\Debug\net5.0\SellPoint.Data.deps.json
+C:\Users\czaiz\Desktop\Projects\SellPoint\SellPoint.Data\bin\Debug\net5.0\SellPoint.Data.runtimeconfig.json
+C:\Users\czaiz\Desktop\Projects\SellPoint\SellPoint.Data\bin\Debug\net5.0\SellPoint.Data.runtimeconfig.dev.json
+C:\Users\czaiz\Desktop\Projects\SellPoint\SellPoint.Data\bin\Debug\net5.0\SellPoint.Data.dll
+C:\Users\czaiz\Desktop\Projects\SellPoint\SellPoint.Data\bin\Debug\net5.0\SellPoint.Data.pdb
+C:\Users\czaiz\Desktop\Projects\SellPoint\SellPoint.Data\obj\Debug\net5.0\SellPoint.Data.csproj.AssemblyReference.cache
+C:\Users\czaiz\Desktop\Projects\SellPoint\SellPoint.Data\obj\Debug\net5.0\SellPoint.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\czaiz\Desktop\Projects\SellPoint\SellPoint.Data\obj\Debug\net5.0\SellPoint.Data.AssemblyInfoInputs.cache
+C:\Users\czaiz\Desktop\Projects\SellPoint\SellPoint.Data\obj\Debug\net5.0\SellPoint.Data.AssemblyInfo.cs
+C:\Users\czaiz\Desktop\Projects\SellPoint\SellPoint.Data\obj\Debug\net5.0\SellPoint.Data.csproj.CoreCompileInputs.cache
+C:\Users\czaiz\Desktop\Projects\SellPoint\SellPoint.Data\obj\Debug\net5.0\SellPoint.Data.dll
+C:\Users\czaiz\Desktop\Projects\SellPoint\SellPoint.Data\obj\Debug\net5.0\refint\SellPoint.Data.dll
+C:\Users\czaiz\Desktop\Projects\SellPoint\SellPoint.Data\obj\Debug\net5.0\SellPoint.Data.pdb
+C:\Users\czaiz\Desktop\Projects\SellPoint\SellPoint.Data\obj\Debug\net5.0\SellPoint.Data.genruntimeconfig.cache
+C:\Users\czaiz\Desktop\Projects\SellPoint\SellPoint.Data\obj\Debug\net5.0\ref\SellPoint.Data.dll

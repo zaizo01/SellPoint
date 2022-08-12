@@ -13,3 +13,18 @@ C:\Users\zaiz\Desktop\SellPoint Project\NewSellPoint\SellPoint\SellPoint.Busines
 C:\Users\zaiz\Desktop\SellPoint Project\NewSellPoint\SellPoint\SellPoint.Business\bin\Debug\net5.0\SellPoint.Data.dll
 C:\Users\zaiz\Desktop\SellPoint Project\NewSellPoint\SellPoint\SellPoint.Business\bin\Debug\net5.0\SellPoint.Data.pdb
 C:\Users\zaiz\Desktop\SellPoint Project\NewSellPoint\SellPoint\SellPoint.Business\obj\Debug\net5.0\SellPoint.Business.csproj.CopyComplete
+C:\Users\czaiz\Desktop\Projects\SellPoint\SellPoint.Business\bin\Debug\net5.0\SellPoint.Business.deps.json
+C:\Users\czaiz\Desktop\Projects\SellPoint\SellPoint.Business\bin\Debug\net5.0\SellPoint.Business.dll
+C:\Users\czaiz\Desktop\Projects\SellPoint\SellPoint.Business\bin\Debug\net5.0\SellPoint.Business.pdb
+C:\Users\czaiz\Desktop\Projects\SellPoint\SellPoint.Business\bin\Debug\net5.0\SellPoint.Data.dll
+C:\Users\czaiz\Desktop\Projects\SellPoint\SellPoint.Business\bin\Debug\net5.0\SellPoint.Data.pdb
+C:\Users\czaiz\Desktop\Projects\SellPoint\SellPoint.Business\obj\Debug\net5.0\SellPoint.Business.csproj.AssemblyReference.cache
+C:\Users\czaiz\Desktop\Projects\SellPoint\SellPoint.Business\obj\Debug\net5.0\SellPoint.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\czaiz\Desktop\Projects\SellPoint\SellPoint.Business\obj\Debug\net5.0\SellPoint.Business.AssemblyInfoInputs.cache
+C:\Users\czaiz\Desktop\Projects\SellPoint\SellPoint.Business\obj\Debug\net5.0\SellPoint.Business.AssemblyInfo.cs
+C:\Users\czaiz\Desktop\Projects\SellPoint\SellPoint.Business\obj\Debug\net5.0\SellPoint.Business.csproj.CoreCompileInputs.cache
+C:\Users\czaiz\Desktop\Projects\SellPoint\SellPoint.Business\obj\Debug\net5.0\SellPoint.Business.csproj.CopyComplete
+C:\Users\czaiz\Desktop\Projects\SellPoint\SellPoint.Business\obj\Debug\net5.0\SellPoint.Business.dll
+C:\Users\czaiz\Desktop\Projects\SellPoint\SellPoint.Business\obj\Debug\net5.0\refint\SellPoint.Business.dll
+C:\Users\czaiz\Desktop\Projects\SellPoint\SellPoint.Business\obj\Debug\net5.0\SellPoint.Business.pdb
+C:\Users\czaiz\Desktop\Projects\SellPoint\SellPoint.Business\obj\Debug\net5.0\ref\SellPoint.Business.dll

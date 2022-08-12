@@ -10,8 +10,8 @@ using SellPoint.Data.Context;
 namespace SellPoint.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20220812044438_First")]
-    partial class First
+    [Migration("20220812122211_init")]
+    partial class init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

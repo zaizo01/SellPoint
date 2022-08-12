@@ -14,6 +14,7 @@ namespace SellPoint.Presentation.WebAPI.MappingProfiles
         {
             CreateMap<Entidades, EntidadesGetDTO>().ReverseMap();
             CreateMap<Entidades, EntidadesPostDTO>().ReverseMap();
+            CreateMap<Entidades, EntidadesPutDTO>().ReverseMap();
         }
     }
 }
