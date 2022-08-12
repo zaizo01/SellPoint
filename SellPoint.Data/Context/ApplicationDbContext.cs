@@ -16,9 +16,10 @@ namespace SellPoint.Data.Context
         }
         public DbSet<Entidades> Entidades { get; set; }
 
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            optionsBuilder.UseSqlServer("server=.;database=SellPoint;trusted_connection=true;");
+            base.OnModelCreating(modelBuilder);
+
         }
     }
 
