@@ -21,7 +21,7 @@ namespace SellPoint.Data.DTOs.Entidades
         public string URLInstagram { get; set; }
         public string URLTwitter { get; set; }
         public string URLTiktok { get; set; }
-        public string CodPostal { get; set; }
+        public string CodigoPostal { get; set; }
         public string CoordenadasGPS { get; set; }
         public double LimiteCredito { get; set; }
         public string UserNameEntidad { get; set; }

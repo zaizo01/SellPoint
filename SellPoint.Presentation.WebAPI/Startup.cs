@@ -1,3 +1,5 @@
+using FluentValidation;
+using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -10,7 +12,10 @@ using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using SellPoint.Business.Interfaces;
 using SellPoint.Business.Services;
+using SellPoint.Business.Validations;
 using SellPoint.Data.Context;
+using SellPoint.Data.DTOs.Entidades;
+using SellPoint.Data.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -32,11 +37,16 @@ namespace SellPoint.Presentation.WebAPI
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+           
             services.AddAutoMapper(Assembly.GetExecutingAssembly());
             services.AddDbContext<ApplicationDbContext>(options =>
             options.UseSqlServer(Configuration.GetConnectionString("StringConnectionDB")));
             services.AddTransient(typeof(IGenericRepository<>), typeof(GenericRepository<>));
-            services.AddControllers();
+            services.AddControllers()
+            .AddFluentValidation(x => {
+                x.ImplicitlyValidateChildProperties = true;
+            });
+            services.AddTransient<IValidator<EntidadesPostDTO>, EntidadesValidator>();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "SellPoint.Presentation.WebAPI", Version = "v1" });

@@ -136,3 +136,6 @@ C:\Users\czaiz\Desktop\Projects\SellPoint\SellPoint.Presentation.WebAPI\obj\Debu
 C:\Users\czaiz\Desktop\Projects\SellPoint\SellPoint.Presentation.WebAPI\obj\Debug\net5.0\SellPoint.Presentation.WebAPI.pdb
 C:\Users\czaiz\Desktop\Projects\SellPoint\SellPoint.Presentation.WebAPI\obj\Debug\net5.0\SellPoint.Presentation.WebAPI.genruntimeconfig.cache
 C:\Users\czaiz\Desktop\Projects\SellPoint\SellPoint.Presentation.WebAPI\obj\Debug\net5.0\ref\SellPoint.Presentation.WebAPI.dll
+C:\Users\zaiz\Desktop\SellPoint Project\NewSellPoint\SellPoint\SellPoint.Presentation.WebAPI\bin\Debug\net5.0\FluentValidation.dll
+C:\Users\zaiz\Desktop\SellPoint Project\NewSellPoint\SellPoint\SellPoint.Presentation.WebAPI\bin\Debug\net5.0\FluentValidation.AspNetCore.dll
+C:\Users\zaiz\Desktop\SellPoint Project\NewSellPoint\SellPoint\SellPoint.Presentation.WebAPI\bin\Debug\net5.0\FluentValidation.DependencyInjectionExtensions.dll

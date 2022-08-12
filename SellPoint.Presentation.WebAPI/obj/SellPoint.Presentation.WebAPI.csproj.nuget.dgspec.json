@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\czaiz\\Desktop\\Projects\\SellPoint\\SellPoint.Presentation.WebAPI\\SellPoint.Presentation.WebAPI.csproj": {}
+    "C:\\Users\\zaiz\\Desktop\\SellPoint Project\\NewSellPoint\\SellPoint\\SellPoint.Presentation.WebAPI\\SellPoint.Presentation.WebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\czaiz\\Desktop\\Projects\\SellPoint\\SellPoint.Business\\SellPoint.Business.csproj": {
+    "C:\\Users\\zaiz\\Desktop\\SellPoint Project\\NewSellPoint\\SellPoint\\SellPoint.Business\\SellPoint.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\czaiz\\Desktop\\Projects\\SellPoint\\SellPoint.Business\\SellPoint.Business.csproj",
+        "projectUniqueName": "C:\\Users\\zaiz\\Desktop\\SellPoint Project\\NewSellPoint\\SellPoint\\SellPoint.Business\\SellPoint.Business.csproj",
         "projectName": "SellPoint.Business",
-        "projectPath": "C:\\Users\\czaiz\\Desktop\\Projects\\SellPoint\\SellPoint.Business\\SellPoint.Business.csproj",
-        "packagesPath": "C:\\Users\\czaiz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\czaiz\\Desktop\\Projects\\SellPoint\\SellPoint.Business\\obj\\",
+        "projectPath": "C:\\Users\\zaiz\\Desktop\\SellPoint Project\\NewSellPoint\\SellPoint\\SellPoint.Business\\SellPoint.Business.csproj",
+        "packagesPath": "C:\\Users\\zaiz\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\zaiz\\Desktop\\SellPoint Project\\NewSellPoint\\SellPoint\\SellPoint.Business\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\czaiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\zaiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +32,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\czaiz\\Desktop\\Projects\\SellPoint\\SellPoint.Data\\SellPoint.Data.csproj": {
-                "projectPath": "C:\\Users\\czaiz\\Desktop\\Projects\\SellPoint\\SellPoint.Data\\SellPoint.Data.csproj"
+              "C:\\Users\\zaiz\\Desktop\\SellPoint Project\\NewSellPoint\\SellPoint\\SellPoint.Data\\SellPoint.Data.csproj": {
+                "projectPath": "C:\\Users\\zaiz\\Desktop\\SellPoint Project\\NewSellPoint\\SellPoint\\SellPoint.Data\\SellPoint.Data.csproj"
               }
             }
           }
@@ -72,21 +76,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\czaiz\\Desktop\\Projects\\SellPoint\\SellPoint.Data\\SellPoint.Data.csproj": {
+    "C:\\Users\\zaiz\\Desktop\\SellPoint Project\\NewSellPoint\\SellPoint\\SellPoint.Data\\SellPoint.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\czaiz\\Desktop\\Projects\\SellPoint\\SellPoint.Data\\SellPoint.Data.csproj",
+        "projectUniqueName": "C:\\Users\\zaiz\\Desktop\\SellPoint Project\\NewSellPoint\\SellPoint\\SellPoint.Data\\SellPoint.Data.csproj",
         "projectName": "SellPoint.Data",
-        "projectPath": "C:\\Users\\czaiz\\Desktop\\Projects\\SellPoint\\SellPoint.Data\\SellPoint.Data.csproj",
-        "packagesPath": "C:\\Users\\czaiz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\czaiz\\Desktop\\Projects\\SellPoint\\SellPoint.Data\\obj\\",
+        "projectPath": "C:\\Users\\zaiz\\Desktop\\SellPoint Project\\NewSellPoint\\SellPoint\\SellPoint.Data\\SellPoint.Data.csproj",
+        "packagesPath": "C:\\Users\\zaiz\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\zaiz\\Desktop\\SellPoint Project\\NewSellPoint\\SellPoint\\SellPoint.Data\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\czaiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\zaiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -148,21 +156,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\czaiz\\Desktop\\Projects\\SellPoint\\SellPoint.Presentation.WebAPI\\SellPoint.Presentation.WebAPI.csproj": {
+    "C:\\Users\\zaiz\\Desktop\\SellPoint Project\\NewSellPoint\\SellPoint\\SellPoint.Presentation.WebAPI\\SellPoint.Presentation.WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\czaiz\\Desktop\\Projects\\SellPoint\\SellPoint.Presentation.WebAPI\\SellPoint.Presentation.WebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\zaiz\\Desktop\\SellPoint Project\\NewSellPoint\\SellPoint\\SellPoint.Presentation.WebAPI\\SellPoint.Presentation.WebAPI.csproj",
         "projectName": "SellPoint.Presentation.WebAPI",
-        "projectPath": "C:\\Users\\czaiz\\Desktop\\Projects\\SellPoint\\SellPoint.Presentation.WebAPI\\SellPoint.Presentation.WebAPI.csproj",
-        "packagesPath": "C:\\Users\\czaiz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\czaiz\\Desktop\\Projects\\SellPoint\\SellPoint.Presentation.WebAPI\\obj\\",
+        "projectPath": "C:\\Users\\zaiz\\Desktop\\SellPoint Project\\NewSellPoint\\SellPoint\\SellPoint.Presentation.WebAPI\\SellPoint.Presentation.WebAPI.csproj",
+        "packagesPath": "C:\\Users\\zaiz\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\zaiz\\Desktop\\SellPoint Project\\NewSellPoint\\SellPoint\\SellPoint.Presentation.WebAPI\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\czaiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\zaiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -176,11 +188,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\czaiz\\Desktop\\Projects\\SellPoint\\SellPoint.Business\\SellPoint.Business.csproj": {
-                "projectPath": "C:\\Users\\czaiz\\Desktop\\Projects\\SellPoint\\SellPoint.Business\\SellPoint.Business.csproj"
+              "C:\\Users\\zaiz\\Desktop\\SellPoint Project\\NewSellPoint\\SellPoint\\SellPoint.Business\\SellPoint.Business.csproj": {
+                "projectPath": "C:\\Users\\zaiz\\Desktop\\SellPoint Project\\NewSellPoint\\SellPoint\\SellPoint.Business\\SellPoint.Business.csproj"
               },
-              "C:\\Users\\czaiz\\Desktop\\Projects\\SellPoint\\SellPoint.Data\\SellPoint.Data.csproj": {
-                "projectPath": "C:\\Users\\czaiz\\Desktop\\Projects\\SellPoint\\SellPoint.Data\\SellPoint.Data.csproj"
+              "C:\\Users\\zaiz\\Desktop\\SellPoint Project\\NewSellPoint\\SellPoint\\SellPoint.Data\\SellPoint.Data.csproj": {
+                "projectPath": "C:\\Users\\zaiz\\Desktop\\SellPoint Project\\NewSellPoint\\SellPoint\\SellPoint.Data\\SellPoint.Data.csproj"
               }
             }
           }
@@ -236,7 +248,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
