@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "SellPoint.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/SellPoint.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SellPoint.Data.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "SellPoint.Data/1.0.0": {
+      "type": "project",
+      "path": "../SellPoint.Data/SellPoint.Data.csproj",
+      "msbuildProject": "../SellPoint.Data/SellPoint.Data.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "SellPoint.Data >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\zaiz\\.nuget\\packages\\": {},
@@ -38,7 +57,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\zaiz\\Desktop\\SellPoint Project\\NewSellPoint\\SellPoint\\SellPoint.Data\\SellPoint.Data.csproj": {
+              "projectPath": "C:\\Users\\zaiz\\Desktop\\SellPoint Project\\NewSellPoint\\SellPoint\\SellPoint.Data\\SellPoint.Data.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -12,4 +12,9 @@
     <Folder Include="Controllers\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\SellPoint.Business\SellPoint.Business.csproj" />
+    <ProjectReference Include="..\SellPoint.Data\SellPoint.Data.csproj" />
+  </ItemGroup>
+
 </Project>
