@@ -14,7 +14,9 @@ using SellPoint.Data.Context;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Threading.Tasks;
+
 
 namespace SellPoint.Presentation.WebAPI
 {
@@ -30,6 +32,7 @@ namespace SellPoint.Presentation.WebAPI
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddAutoMapper(Assembly.GetExecutingAssembly());
             services.AddDbContext<ApplicationDbContext>(options =>
             options.UseSqlServer(Configuration.GetConnectionString("StringConnectionDB")));
             services.AddTransient(typeof(IGenericRepository<>), typeof(GenericRepository<>));

@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace SellPoint.Presentation.WebAPI.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/[controller]/[action]")]
     [ApiController]
     public class EntidadesController : ControllerBase
     {
