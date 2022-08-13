@@ -1,18 +1,26 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div>
+    home
+    <!-- <vue-splash
+      :show="true"
+      :logo="logo"
+      title="Your Magnificent App Name"
+      color="#00bfa5"
+      :size="300"
+      :fixed="true"
+    /> -->
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import YourLogo from "../assets/logo.png";
 
 export default {
-  name: 'Home',
-  components: {
-    HelloWorld
-  }
-}
+  name: "SplashScreen",
+  computed: {
+    logo() {
+      return YourLogo;
+    },
+  },
+};
 </script>
