@@ -16,7 +16,7 @@ namespace SellPoint.Data.Entities
         public string Localidad { get; set; }
         public string TipoEntidad { get; set; } = "Jurídica";
         public string TipoDocumento { get; set; } = "RNC";
-        public long NumeroDocumento { get; set; }
+        public string NumeroDocumento { get; set; }
         public string Telefonos { get; set; }
         public string URLPaginaWeb { get; set; }
         public string URLFacebook { get; set; }

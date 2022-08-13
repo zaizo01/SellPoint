@@ -65,7 +65,7 @@
         <option value="Pasaporte">Pasaporte</option>
       </select>
     </div>
-    <div class="col-md-4">
+    <div class="col-md-4" v-if="isCreateAction == true">
       <label class="form-label"
         >Numero de Documento <span class="text-danger">*</span></label
       >
@@ -90,6 +90,15 @@
         type="text"
         class="form-control"
         v-mask="'000000000'"
+        v-model="entity.numeroDocumento"
+        :disabled="isShowAction"
+      />
+    </div>
+    <div class="col-md-4" v-else>
+      <label class="form-label">Numero de Documento <span class="text-danger">*</span></label>
+        <input
+        type="text"
+        class="form-control"
         v-model="entity.numeroDocumento"
         :disabled="isShowAction"
       />
@@ -361,9 +370,7 @@ export default {
         .get(`/GetEntityById/${id}`)
         .then((resp) => {
           if (this.isShowAction || this.isEditAction) {
-            console.log(resp.data);
             this.entity = resp.data;
-            this.entity.numeroDocumento = resp.data.numeroDocumento;
           }
         })
         .catch((err) => {
@@ -376,9 +383,9 @@ export default {
     },
     async createEntity() {
       this.errorList = [];
-      let documentNumber = this.entity.numeroDocumento.replace(/-/gi, "");
-      this.entity.numeroDocumento = documentNumber;
-      parseInt(this.entity.numeroDocumento);
+      // let documentNumber = this.entity.numeroDocumento.replace(/-/gi, "");
+      // this.entity.numeroDocumento = documentNumber;
+      // parseInt(this.entity.numeroDocumento);
       let response = await sellPointApi
         .post("/CreateEntity", this.entity)
         .then((resp) => {
