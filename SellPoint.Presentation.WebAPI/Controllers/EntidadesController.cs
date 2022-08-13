@@ -42,7 +42,7 @@ namespace SellPoint.Presentation.WebAPI.Controllers
             }
         }
 
-        [HttpGet]
+        [HttpGet("{id:int}")]
         public async Task<IActionResult> GetEntityById(int id)
         {
             try
@@ -101,7 +101,7 @@ namespace SellPoint.Presentation.WebAPI.Controllers
             }
         }
 
-        [HttpDelete]
+        [HttpDelete("{id:int}")]
         public async Task<IActionResult> DeleteEntity(int id)
         {
             try

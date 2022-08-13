@@ -31,11 +31,11 @@ export default {
       let response = await sellPointApi
         .get("/GetAllEntities")
         .then((resp) => {
-          // if (resp.data.length == 0) {
-          //   this.$router.push({ name: "login" });
-          // } else {
-          //   this.$router.push({ name: "About" });
-          // }
+          if (resp.data.length == 0) {
+            this.$router.push({ name: "entities-create" });
+          } else {
+            this.$router.push({ name: "login" });
+          }
           console.log(resp.data);
         })
         .catch((err) => console.log(err));

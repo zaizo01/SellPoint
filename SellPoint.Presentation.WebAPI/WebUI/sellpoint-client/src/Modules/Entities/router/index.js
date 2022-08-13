@@ -19,6 +19,13 @@ export default {
       ),
     },
     {
+      path: "Show/:id",
+      name: "entities-show",
+      component: import(
+        /* webpackChunkName: "entities-create" */ "../views/EntitiesCreateOrEdit.vue"
+      ),
+    },
+    {
       path: "Edit/:id",
       name: "entities-edit",
       component: import(

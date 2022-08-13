@@ -63,6 +63,7 @@ export default {
             });
           }
           localStorage.setItem("User", this.userCredentials.userName);
+          this.$router({ name: "entities-pages" });
         })
         .catch((err) => {
           this.$swal.fire({
