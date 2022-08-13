@@ -8,8 +8,14 @@ import VueSplash from "vue-splash";
 import VueGoodTablePlugin from "vue-good-table-next";
 import "vue-good-table-next/dist/vue-good-table-next.css";
 import VueMask from "@devindex/vue-mask";
+import moment from "moment";
+import Maska from "maska";
+import VueTheMask from "vue-the-mask";
 
 const app = createApp(App);
+app.use(VueTheMask);
+app.use(Maska);
+app.use(moment);
 app.use(VueMask);
 app.use(VueGoodTablePlugin);
 app.use(VueSplash);

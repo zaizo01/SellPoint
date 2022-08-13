@@ -62,8 +62,10 @@ export default {
               text: resp.data,
             });
           }
-          localStorage.setItem("User", this.userCredentials.userName);
-          this.$router({ name: "entities-pages" });
+          if (resp.data !== "Este usuario no existe") {
+            localStorage.setItem("User", this.userCredentials.userName);
+            this.$router.push({ name: "entities-pages" });
+          }
         })
         .catch((err) => {
           this.$swal.fire({

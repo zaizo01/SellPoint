@@ -39,7 +39,11 @@
           >
             <i class="fas fa-trash"></i>
           </button>
-          <button class="btn btn-info" size="sm" @click="editEntity(props.row)">
+          <button
+            class="btn btn-warning"
+            size="sm"
+            @click="editEntity(props.row)"
+          >
             <i class="fas fa-edit"></i>
           </button>
         </span>

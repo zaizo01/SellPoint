@@ -43,8 +43,6 @@
         >Tipo de Entidad <span class="text-danger">*</span></label
       >
       <select
-        name=""
-        id=""
         class="form-select"
         v-model="entity.tipoEntidad"
         :disabled="isShowAction"
@@ -58,8 +56,6 @@
         >Tipo de Documento <span class="text-danger">*</span></label
       >
       <select
-        name=""
-        id=""
         class="form-select"
         v-model="entity.tipoDocumento"
         :disabled="isShowAction"
@@ -73,18 +69,30 @@
       <label class="form-label"
         >Numero de Documento <span class="text-danger">*</span></label
       >
-      {{ entity.numeroDocumento }}
       <input
+        v-if="typeMask == 'C'"
         type="text"
         class="form-control"
+        v-mask="'000-0000000-0'"
         v-model="entity.numeroDocumento"
         :disabled="isShowAction"
       />
-      <!-- entity.tipoDocumento == 'Cédula'
-            ? '000-0000000-0'
-            : this.entity.tipoDocumento == 'RNC'
-            ? '000-00000-0'
-            : '000000000' -->
+       <input
+        v-else-if="typeMask == 'R'"
+        type="text"
+        class="form-control"
+        v-mask="'000-00000-0'"
+        v-model="entity.numeroDocumento"
+        :disabled="isShowAction"
+      />
+       <input
+        v-else
+        type="text"
+        class="form-control"
+        v-mask="'000000000'"
+        v-model="entity.numeroDocumento"
+        :disabled="isShowAction"
+      />
     </div>
     <div class="col-md-4">
       <label class="form-label"
@@ -117,7 +125,7 @@
       />
     </div>
     <div class="col-md-4">
-      <label class="form-label">Limite de Credito</label>
+      <label class="form-label">Limite de Credito <span class="text-danger">*</span></label>
       <input
         type="text"
         class="form-control"
@@ -152,8 +160,6 @@
         >Rol del Usuario <span class="text-danger">*</span></label
       >
       <select
-        name=""
-        id=""
         class="form-select"
         v-model="entity.rolUserEntidad"
         :disabled="isShowAction"
@@ -168,8 +174,6 @@
         >Estado <span class="text-danger">*</span></label
       >
       <select
-        name=""
-        id=""
         class="form-select"
         v-model="entity.status"
         :disabled="isShowAction"
@@ -265,7 +269,7 @@ export default {
         direccion: null,
         localidad: null,
         tipoEntidad: null,
-        tipoDocumento: null,
+        tipoDocumento: 'Cédula',
         numeroDocumento: 0,
         telefonos: null,
         urlPaginaWeb: null,
@@ -291,22 +295,28 @@ export default {
     }
   },
   computed: {
-    documentTypeMask() {
-      return this.entity.tipoDocumento == "Cédula"
-        ? "000-0000000-0"
-        : this.entity.tipoDocumento == "RNC"
-        ? "000-00000-0"
-        : "000000000";
-      // console.log(this.entity.tipoDocumento);
-      // if (this.entity.tipoDocumento == "Cédula") {
-      //   return "000-0000000-0";
-      // }
-      // if (this.entity.tipoDocumento == "RNC") {
-      //   return "000-00000-0";
-      // }
-      // if (this.entity.tipoDocumento == "Pasaporte") {
-      //   return "000000000";
-      // }
+    typeMask(){
+      if (this.entity.tipoDocumento == 'Cédula') {
+        this.entity.numeroDocumento = 0;
+        return 'C'
+      }
+      if (this.entity.tipoDocumento == 'RNC') {
+        this.entity.numeroDocumento = 0;
+        return 'R'
+      }
+      if (this.entity.tipoDocumento == 'Pasaporte') {
+        this.entity.numeroDocumento = 0;
+        return 'p'
+      }
+    },
+    isCitizen(){
+      return this.entity.tipoDocumento === 'Cédula' ? true : false;
+    },
+    isRNC(){
+      return this.entity.tipoDocumento === 'RNC' ? true : false;
+    },
+    isPassport(){
+      return this.entity.tipoDocumento === 'Pasaporte' ? true : false;
     },
     isShowAction() {
       return this.$route.query.action == "showRecords" ? true : false;
@@ -351,7 +361,9 @@ export default {
         .get(`/GetEntityById/${id}`)
         .then((resp) => {
           if (this.isShowAction || this.isEditAction) {
+            console.log(resp.data);
             this.entity = resp.data;
+            this.entity.numeroDocumento = resp.data.numeroDocumento;
           }
         })
         .catch((err) => {
@@ -364,11 +376,12 @@ export default {
     },
     async createEntity() {
       this.errorList = [];
+      let documentNumber = this.entity.numeroDocumento.replace(/-/gi, "");
+      this.entity.numeroDocumento = documentNumber;
       parseInt(this.entity.numeroDocumento);
       let response = await sellPointApi
         .post("/CreateEntity", this.entity)
         .then((resp) => {
-          console.log(resp);
           if (resp.status == 200) {
             this.$swal({
               icon: "success",
