@@ -24,7 +24,11 @@
               placeholder="Password"
               v-model="userCredentials.password"
             />
-            <button class="btn btn-primary btn-block w-100" @click="login">
+            <button
+              class="btn btn-primary btn-block w-100"
+              @click="login"
+              @keyup.enter="login"
+            >
               Login
             </button>
           </div>
@@ -48,12 +52,10 @@ export default {
   },
   methods: {
     async login() {
-      response = await sellPointApi
+      let response = await sellPointApi
         .post("/Login", this.userCredentials)
-        .then((resp) => console.log(resp))
+        .then((resp) => console.log(resp.data))
         .catch((err) => console.log(err));
-
-      console.log("login");
     },
   },
 };
