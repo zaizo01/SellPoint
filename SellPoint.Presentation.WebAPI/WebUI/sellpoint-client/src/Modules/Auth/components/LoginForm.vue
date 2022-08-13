@@ -7,7 +7,6 @@
       <div class="tab-content" id="pills-tabContent">
         <div
           class="tab-pane fade show active"
-          id="pills-home"
           role="tabpanel"
           aria-labelledby="pills-home-tab"
         >
@@ -15,35 +14,19 @@
             <input
               type="text"
               class="form-control"
-              placeholder="Email or Phone"
+              placeholder="UserName"
+              v-model="userCredentials.userName"
             />
-
-            <input type="text" class="form-control" placeholder="Password" />
-            <button class="btn btn-primary btn-block w-100" @click="login">
-              Login
-            </button>
-          </div>
-        </div>
-        <div
-          class="tab-pane fade"
-          id="pills-profile"
-          role="tabpanel"
-          aria-labelledby="pills-profile-tab"
-        >
-          <div class="form px-4">
-            <input type="text" class="form-control" placeholder="UserName" />
-
-            <input type="text" class="form-control" placeholder="Email" />
-
-            <input type="text" class="form-control" placeholder="Phone" />
 
             <input
               type="password"
               class="form-control"
               placeholder="Password"
+              v-model="userCredentials.password"
             />
-
-            <button class="btn btn-dark btn-block">Signup</button>
+            <button class="btn btn-primary btn-block w-100" @click="login">
+              Login
+            </button>
           </div>
         </div>
       </div>
@@ -52,10 +35,24 @@
 </template>
 
 <script>
+import sellPointApi from "@/api/sellPointApi";
 export default {
   name: "LoginForm",
+  data() {
+    return {
+      userCredentials: {
+        userName: null,
+        password: null,
+      },
+    };
+  },
   methods: {
-    login() {
+    async login() {
+      response = await sellPointApi
+        .post("/Login", this.userCredentials)
+        .then((resp) => console.log(resp))
+        .catch((err) => console.log(err));
+
       console.log("login");
     },
   },

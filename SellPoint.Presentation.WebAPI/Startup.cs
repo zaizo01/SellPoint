@@ -47,6 +47,12 @@ namespace SellPoint.Presentation.WebAPI
             .AddFluentValidation(x => {
                 x.ImplicitlyValidateChildProperties = true;
             });
+            services.AddCors(options => {
+                options.AddPolicy("corsPolicy", builder =>
+                {
+                    builder.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod();
+                });
+            });
             services.AddTransient<IValidator<EntidadesPostDTO>, EntidadesValidator>();
             services.AddSwaggerGen(c =>
             {
@@ -65,7 +71,7 @@ namespace SellPoint.Presentation.WebAPI
             }
 
             app.UseHttpsRedirection();
-
+            app.UseCors("corsPolicy");
             app.UseRouting();
 
             app.UseAuthorization();
