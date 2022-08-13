@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from "vue-router";
 import Home from "../views/Home.vue";
 import authRouter from "../Modules/Auth/router";
+import entitiesRouter from "../Modules/Entities/router";
 
 const routes = [
   {
@@ -17,6 +18,10 @@ const routes = [
   {
     path: "/auth",
     ...authRouter,
+  },
+  {
+    path: "/entidades",
+    ...entitiesRouter,
   },
 ];
 

@@ -54,8 +54,23 @@ export default {
     async login() {
       let response = await sellPointApi
         .post("/Login", this.userCredentials)
-        .then((resp) => console.log(resp.data))
-        .catch((err) => console.log(err));
+        .then((resp) => {
+          if (resp.status == 200) {
+            this.$swal({
+              icon: resp.data == "Este usuario no existe" ? "info" : "success",
+              title: "Notificación",
+              text: resp.data,
+            });
+          }
+          localStorage.setItem("User", this.userCredentials.userName);
+        })
+        .catch((err) => {
+          this.$swal.fire({
+            icon: "error",
+            title: "Oops...",
+            text: err,
+          });
+        });
     },
   },
 };
