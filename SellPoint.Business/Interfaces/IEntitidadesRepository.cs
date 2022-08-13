@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 
 namespace SellPoint.Business.Interfaces
 {
-    public  interface IvalidationService
+    public interface IEntitidadesRepository<T> where T : class
     {
-        Task<Entidades> CustomValidation(Entidades entity);
+        Task<String> Login(Entidades entity);
     }
 }

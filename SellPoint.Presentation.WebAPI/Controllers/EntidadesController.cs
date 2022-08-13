@@ -16,12 +16,30 @@ namespace SellPoint.Presentation.WebAPI.Controllers
     public class EntidadesController : ControllerBase
     {
         private readonly IGenericRepository<Entidades> repository;
+        private readonly IEntitidadesRepository<Entidades> entityService;
         private readonly IMapper mapper;
 
-        public EntidadesController(IGenericRepository<Entidades> repository, IMapper mapper)
+        public EntidadesController(IGenericRepository<Entidades> repository, IEntitidadesRepository<Entidades> entityService, IMapper mapper)
         {
             this.repository = repository;
+            this.entityService = entityService;
             this.mapper = mapper;
+        }
+
+
+        [HttpPost]
+        public async Task<IActionResult> Login(UserCredentialsDTO userCredentialsDTO)
+        {
+            try
+            {
+                var entity = mapper.Map<Entidades>(userCredentialsDTO);
+                var response = await entityService.Login(entity);
+                return Ok(response);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
+            }
         }
 
         [HttpGet]

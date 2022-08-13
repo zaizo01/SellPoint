@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31515.178
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SellPoint.Data", "SellPoint.Data\SellPoint.Data.csproj", "{7E757B81-B4E3-457C-8BA7-5006BCEDE78C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SellPoint.Data", "SellPoint.Data\SellPoint.Data.csproj", "{7E757B81-B4E3-457C-8BA7-5006BCEDE78C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SellPoint.Business", "SellPoint.Business\SellPoint.Business.csproj", "{506AC742-6B1D-43C0-AA35-37762C75F7FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SellPoint.Business", "SellPoint.Business\SellPoint.Business.csproj", "{506AC742-6B1D-43C0-AA35-37762C75F7FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SellPoint.Presentation.WebAPI", "SellPoint.Presentation.WebAPI\SellPoint.Presentation.WebAPI.csproj", "{B78846C7-46DF-47DB-82A0-63B06F60F439}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SellPoint.Presentation.WebAPI", "SellPoint.Presentation.WebAPI\SellPoint.Presentation.WebAPI.csproj", "{B78846C7-46DF-47DB-82A0-63B06F60F439}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SellPoint.Presentation.WebUI", "SellPoint.Presentation.WebUI", "{BEB0B5F9-8B50-45CD-8084-4D79C3B1DE9B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

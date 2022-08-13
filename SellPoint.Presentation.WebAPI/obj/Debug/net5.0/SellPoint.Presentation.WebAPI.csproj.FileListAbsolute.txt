@@ -139,3 +139,5 @@ C:\Users\czaiz\Desktop\Projects\SellPoint\SellPoint.Presentation.WebAPI\obj\Debu
 C:\Users\zaiz\Desktop\SellPoint Project\NewSellPoint\SellPoint\SellPoint.Presentation.WebAPI\bin\Debug\net5.0\FluentValidation.dll
 C:\Users\zaiz\Desktop\SellPoint Project\NewSellPoint\SellPoint\SellPoint.Presentation.WebAPI\bin\Debug\net5.0\FluentValidation.AspNetCore.dll
 C:\Users\zaiz\Desktop\SellPoint Project\NewSellPoint\SellPoint\SellPoint.Presentation.WebAPI\bin\Debug\net5.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\zaiz\Desktop\SellPoint Project\NewSellPoint\SellPoint\SellPoint.Presentation.WebAPI\bin\Debug\net5.0\WebUI\sellpoint-client\package-lock.json
+C:\Users\zaiz\Desktop\SellPoint Project\NewSellPoint\SellPoint\SellPoint.Presentation.WebAPI\bin\Debug\net5.0\WebUI\sellpoint-client\package.json

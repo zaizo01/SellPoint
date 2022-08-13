@@ -9,10 +9,10 @@ using System.Threading.Tasks;
 
 namespace SellPoint.Business.Services
 {
-    public class GenericRepository<T> : IGenericRepository<T> where T : class
+    public class GenericService<T> : IGenericRepository<T> where T : class
     {
         private readonly ApplicationDbContext context;
-        public GenericRepository(ApplicationDbContext context)
+        public GenericService(ApplicationDbContext context)
         {
             this.context = context;
         }

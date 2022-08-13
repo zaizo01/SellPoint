@@ -41,7 +41,8 @@ namespace SellPoint.Presentation.WebAPI
             services.AddAutoMapper(Assembly.GetExecutingAssembly());
             services.AddDbContext<ApplicationDbContext>(options =>
             options.UseSqlServer(Configuration.GetConnectionString("StringConnectionDB")));
-            services.AddTransient(typeof(IGenericRepository<>), typeof(GenericRepository<>));
+            services.AddTransient(typeof(IGenericRepository<>), typeof(GenericService<>));
+            services.AddTransient(typeof(IEntitidadesRepository<>), typeof(EntitidadesService<>));
             services.AddControllers()
             .AddFluentValidation(x => {
                 x.ImplicitlyValidateChildProperties = true;

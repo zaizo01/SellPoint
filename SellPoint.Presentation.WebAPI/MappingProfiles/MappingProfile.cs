@@ -12,6 +12,10 @@ namespace SellPoint.Presentation.WebAPI.MappingProfiles
     {
         public MappingProfile()
         {
+            CreateMap<Entidades, UserCredentialsDTO>()
+                .ForMember(u => u.UserName, m => m.MapFrom(e => e.UserNameEntidad))
+                .ForMember(u => u.Password, m => m.MapFrom(e => e.PassworEntidad))
+                .ReverseMap();
             CreateMap<Entidades, EntidadesGetDTO>().ReverseMap();
             CreateMap<Entidades, EntidadesPostDTO>().ReverseMap();
             CreateMap<Entidades, EntidadesPutDTO>().ReverseMap();
